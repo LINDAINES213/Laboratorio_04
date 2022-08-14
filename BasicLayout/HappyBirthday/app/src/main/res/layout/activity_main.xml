@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/Fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/historia_instagram_feliz_cumplea_os_mujer_colores_beige_coral__1_" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="188dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="568dp"
+        android:contentDescription="@string/happy_birthday_text1"
+        android:fontFamily="@font/arima_madurai_bold"
+        android:text="¡Feliz"
+        android:textColor="#B56850"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="231dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="520dp"
+        android:contentDescription="@string/happy_birthday_text2"
+        android:fontFamily="@font/arima_madurai_bold"
+        android:text="Cumple!"
+        android:textColor="#B56850"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="143dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginBottom="453dp"
+        android:contentDescription="@string/happy_birthday_text3"
+        android:fontFamily="@font/aguafina_script"
+        android:text="Ariela"
+        android:textColor="#843442"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="80dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/happy_birthday_text5"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="tu día!"
+        android:textColor="#843442"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="132dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="56dp"
+        android:contentDescription="@string/happy_birthday_text4"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="¡Disfruta"
+        android:textColor="#843442"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="177dp"
+        android:layout_height="277dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/_f382"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

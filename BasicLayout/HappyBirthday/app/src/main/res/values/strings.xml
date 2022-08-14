@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Happy Birthday</string>
+    <string name="happy_birthday_text1">¡Feliz</string>
+    <string name="happy_birthday_text2">Cumple!</string>
+    <string name="happy_birthday_text3">Ariela</string>
+    <string name="happy_birthday_text4">¡Disfruta</string>
+    <string name="happy_birthday_text5">tu día!</string>
+    <string name="Fondo">cc</string>
+</resources>
